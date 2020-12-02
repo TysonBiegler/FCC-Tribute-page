@@ -1,0 +1,104 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+  text-align: center;
+  background-image: linear-gradient(black, rgb(61, 61, 61));
+}
+
+ul {
+  display: block;
+  list-style: none;
+  max-width: 800px;
+  line-height: 1.6;
+  margin: 0 auto 50px auto;
+}
+
+#main {
+  background-color: #eee;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 15px 15px 5px black;
+  border-radius: 50px;
+}
+
+#title {
+  max-width: 650px;
+  margin: 0 auto 5px auto;
+  padding-top: 20px;
+}
+
+#img-div {
+  background-color: white;
+  max-width: 900px;
+  margin: auto 25% auto 25%;
+  border-radius: 20px;
+  box-shadow: 8px 8px 5px #333;
+}
+
+#image {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  height: auto;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+#img-caption {
+  margin: 0%;
+  padding: 2%;
+  font-size: 18px;
+  max-width: 500px;
+  margin: 0 auto 50px auto;
+}
+
+#tribute-info {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 20px;
+  max-width: 800px;
+  margin: 2% auto;
+}
+
+#footer {
+  margin: 2% auto 5% auto;
+  font-size: 20px;
+  color: #eee;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(170, 160, 160);
+}
+
+a:link {
+  color: whitesmoke;
+}
+
+a:hover {
+  font-size: 102%;
+  color: rgb(255, 189, 151);
+}
+
+.subTitle {
+  max-width: 700px;
+  margin: auto auto 2% auto;
+}
+
+.li {
+  margin-top: 1.5rem;
+}
+
+.creds {
+  font-size: 15px;
+  margin: 5%;
+  opacity: 60%;
+  color: #eee;
+}
